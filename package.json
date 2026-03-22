@@ -1,0 +1,28 @@
+{
+  "name": "lilturbo",
+  "version": "1.0.0",
+  "description": "A super-lightweight monorepo scaffold CLI.",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node src/index.ts",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iCoderabhishek/LilTurbo.git"
+  },
+  "keywords": [
+    "monorepo",
+    "cli",
+    "typescript"
+  ],
+  "author": "Abhishek Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iCoderabhishek/LilTurbo/issues"
+  },
+  "homepage": "https://github.com/iCoderabhishek/LilTurbo#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
